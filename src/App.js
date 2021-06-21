@@ -13,10 +13,11 @@ class App extends Component {
   }
 
   render() {
+    const color = 'green'
     return (
       <div>
         <h1>Hello there</h1>
-        <Box />
+        <Box color={color}/>
       </div>
     );
   }
